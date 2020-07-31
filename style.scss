@@ -155,3 +155,14 @@ footer {
     font-size: 14px;
   }
 }
+
+@media (max-width: 500px) {
+  #user {
+    .user-info {
+      .user-profile-photo {
+        width: 125px;
+        border-radius: 50px;
+      }
+    }
+  }
+}
